@@ -25,5 +25,6 @@ const clientes = [
     }
 ]
 
+// operador de espalhamento
 const listaDependentes = [...clientes[0].dependentes, ...clientes[1].dependentes]
 console.table(listaDependentes)
