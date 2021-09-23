@@ -16,9 +16,12 @@ cliente.dependentes.push({
     dataNasc:"05/05/2003"
 })
 
-// Criança <= 13 anos
-const nascCrianca = 2021 - 13
 
-const dependentesCriancas = cliente.dependentes.filter(dependente => Number(dependente.dataNasc.substring(6)) >= nascCrianca )
+const anoNacimentoDeCrianca = 2021 - 13
 
-console.log(dependentesCriancas)
+const indexStartYear = 6
+
+const clientesComDependentesCrianca = cliente.dependentes.filter(dependente => 
+    Number(dependente.dataNasc.substring(indexStartYear)) >= anoNacimentoDeCrianca )
+
+console.log(clientesComDependentesCrianca)
