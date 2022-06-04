@@ -1,0 +1,10 @@
+uso de funcoes anonimas para evitar a execucao do codigo javascript durante o carregamento do body
+
+uso de template strings para atualizar o valor do id para ser tocado
+
+insercao de classes
+
+
+== e ===
+
+||  -> ou
